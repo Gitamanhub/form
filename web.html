@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Performance Masters Career Institute</title>
+  <link rel="shortcut icon" href="browser.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="main-header">
+    <img src="logo.jpg" alt="Institute Logo" class="logo" width="80px" />
+    <h1>Performance Masters Career Institute</h1>
+    <p>Your Gateway to Nursing Education Abroad</p>
+  </header>
+
+  <section class="hero">
+  <img src="pi.jpg" alt="Nursing Students" />
+  <div class="overlay">
+    <h2>Admissions Open</h2>
+    <p>Study nursing and secure your future in foreign countries.</p>
+  </div>
+</section>
+
+
+  <section class="form-section">
+    <h2>Admission Form</h2>
+    <form id="admissionForm" method="POST" action="form-action.php">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="father">Father Name:</label>
+      <input type="text" id="father" name="father" required />
+
+      <label for="cnic">Father CNIC / ID Number:</label>
+      <input type="text" id="cnic" name="cnic" placeholder="xxxxx-xxxxxxx-x" required />
+
+      <label for="niv">Student B-Form / NIV Number:</label>
+      <input type="text" id="niv" name="niv" placeholder="xxxxx-xxxxxxx-x" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="country">Preferred Country:</label>
+      <select id="country" name="country" required>
+        <option value="">--Select--</option>
+        <option>UK</option>
+        <option>Canada</option>
+        <option>Germany</option>
+        <option>Australia</option>
+      </select>
+
+      <label for="about">Tell Us About Yourself:</label>
+      <textarea id="about" name="about" rows="4" placeholder="Write about your skills, interest in nursing, and goals..." required></textarea>
+
+      <label for="message">Why do you want to study nursing abroad?</label>
+      <textarea id="message" name="message" rows="4" placeholder="Explain your motivation for studying abroad..." required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <h3>Contact Us</h3>
+      <div class="visit-box">
+        <h4>Visit Our Campus</h4>
+        <p>5th Floor, State Life Building No. 03,<br>Dr. Ziauddin Ahmed Road,<br>Karachi, Pakistan</p>
+      </div>
+      <p>Phone 1: 0311 1130061</p>
+      <p>Phone 2: +92 321 2006947</p>
+      <p>Email: <a href="mailto:info@pmcius.com">info@pmcius.com</a></p>
+      <p>Website: <a href="https://pmcius.com" target="_blank">pmcius.com</a></p>
+    </div>
+    <p class="copyright">
+      &copy; 2025 Performance Masters Career Institute. All Rights Reserved.
+    </p>
+  </footer>
+
+  <script src="sit.js"></script>
+</body>
+</html>

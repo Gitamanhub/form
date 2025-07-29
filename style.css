@@ -1,0 +1,178 @@
+.main-header {
+  background-color: #003366; /* Deep Blue */
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 20px;
+  border-bottom: 5px solid #0066cc;
+  margin-bottom: 30px;
+  border-radius: 0 0 15px 15px;
+}
+
+.main-header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.main-header p {
+  font-size: 16px;
+  font-style: italic;
+  color: #cce6ff;
+}
+
+
+.form-section {
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #003366;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section label {
+  margin: 15px 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-section input,
+.form-section select,
+.form-section textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: 0.3s border-color;
+}
+
+.form-section input:focus,
+.form-section select:focus,
+.form-section textarea:focus {
+  border-color: #0066cc;
+  outline: none;
+}
+
+.form-section textarea {
+  resize: vertical;
+}
+
+.form-section button {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #0066cc;
+  color: hsl(0, 17%, 98%);
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-section button:hover {
+  background-color: #004a99;
+}
+/* === FOOTER DESIGN === */
+.site-footer {
+  background-color: lab(57.54% -3.08 -15.58); /* dark blue background */
+  color: hwb(0 0% 92%);
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 60px;
+  border-top: 5px solid hsl(23, 100%, 40%);
+  box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.site-footer .footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-content h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #cce6ff;
+  letter-spacing: 1px;
+}
+
+.footer-content p {
+  margin: 6px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-content a {
+  color: #80cfff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer .copyright {
+  margin-top: 25px;
+  font-size: 14px;
+  color: hsl(210, 81%, 33%);
+  border-top: 1px solid #555;
+  padding-top: 15px;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 600px) {
+  .footer-content h3 {
+    font-size: 20px;
+  }
+
+  .footer-content p,
+  footer .copyright {
+    font-size: 14px;
+  }
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
